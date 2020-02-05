@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 20px;
+    color: darkslategray;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+   
+}
+body{
+    background-image: url("https://images.barrons.com/im-86071?width=1260&size=1.5005861664712778");
+}
+p{
+    color:whitesmoke;
+    text-align: center;
+}
+.bio{
+    color:whitesmoke;
+    text-align: center;
+}
+.images{
+   width: 4px;
+ 
+}
+.linkedIn{
+    width: 50px;
+}
+.github{
+    width:50px ;
+}
+
+h1{
+    background-color:  rgba(20, 20, 20, 0.089);
+    
+    
+}
+h2{
+background-color: rgba(20, 20, 20, 0.089);
+}
+.imgages{
+    size: 50px;
+    text-align: center;
+}
+.skills{
+    list-style-type:none;
+    text-align: center;
+    color: white;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  
+  li {
+    float: left;
+    background-color: rgba(20, 20, 20, 0.089);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:darkslategray;
+  }
+li a.active {
+    background-color: #4CAF50;
+    
+  }
