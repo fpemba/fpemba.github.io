@@ -27,14 +27,18 @@ p{
 }
 .linkedIn{
     width: 100px;
+    text-align: center;
 }
 .github{
     width:130px ;
+    text-align: center;
 }
 
 h1{
   
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    
     
     
     
@@ -54,14 +58,14 @@ h3{
 }
 .skills{
     list-style-type:none;
-    text-align: center;
-    color: rgb(138, 15, 15);
-}
+   
+ } 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: grid;
+   
 
   }
   
@@ -87,8 +91,8 @@ li a.active {
   }
   .container{
       display: grid;
-      grid-template-columns: 420px 420px 450px; 
-      /* grid-template-rows: 300px 900px 200px;  */
+      /* grid-template-columns: 420px 420px 450px;  */
+      grid-template-rows: 300px 300px 200px;  
        /* grid-template-rows: 200px;  */
       margin: 2rem auto 2rem auto;
       column-gap: 30px;
@@ -101,44 +105,69 @@ header{
     overflow:hidden; 
     list-style-type: none;
     display: grid;
+    justify-content: center;
    
   
+}
+.welcome{
+    display:grid;
+    justify-content: end;
 }
     
 main{
 
-
+    display: grid;
+    grid-template-columns: 500px 500px;
+  justify-content:end;
+  
      
 }
   .main_bio{
-     
+     display: grid;
+     justify-items: center;
     
   }
   .main_picture{
+  
+    display: grid;
+    justify-content:space-evenly;
+   
 
 
   }
  .projectsskills{
      display: grid;
-     row-gap: 20px;
+     grid-template-columns: 400px 400px 400px;
+
+ }
+ .pets{
+     display: grid;
+
+ }
+ .hospital{
+     display: grid;
+     justify-content: center;
+
+ }
+ .tasks{
+     display: grid;
+     justify-content: center;
  }
 
   footer{
     display: grid;
-    row-gap: 20px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
+    justify-content: center;
+   
 }
 .contact_github{
 
+    display: grid;
+    justify-content: center;
 
 }
 .contact_linkedin{
     
-
+    display: grid;
+    justify-content: center;
 
 }
