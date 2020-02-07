@@ -138,10 +138,12 @@ main{
  .projectsskills{
      display: grid;
      grid-template-columns: 400px 400px 400px;
+     justify-content:start;
 
  }
  .pets{
      display: grid;
+     justify-content: center;
 
  }
  .hospital{
@@ -151,6 +153,7 @@ main{
  }
  .tasks{
      display: grid;
+     text-align: center;
      justify-content: center;
  }
 
