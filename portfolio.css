@@ -3,28 +3,14 @@
     padding: 0px;
     color:darkslategrey;
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    /* background-color: cornflowerblue; */
-    /* border-style: solid;
-    border-width: 1px; */
-    
-   
+    text-align: center; 
 }
+
 body{
      background-image: url(" http://wallpaperheart.com/wp-content/uploads/2018/08/cool-background-designs-for-powerpoint-7.jpg");
 }
-p{
-    
-    text-align: center;
-}
-.bio{
-   
-    text-align: center;
-}
-.images{
-   width: 4px;
- 
-}
+
+
 .linkedIn{
     width: 100px;
     text-align: center;
@@ -33,48 +19,7 @@ p{
     width:130px ;
     text-align: center;
 }
-
-h1{
-  
-    display: flex;
-    flex-direction: row;
-    
-    
-    
-    
-}
-
-.imgages{
-    size: 50px;
-    text-align: center;
-    width: 100%;
-}
-
-h3{
-    list-style-type:none;
-    text-align: center;
-   
-    
-}
-.skills{
-    list-style-type:none;
-   
- } 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-   
-
-  }
-  
-  li {
-    float: left;
-   
-  }
-  
-  li a {
+  .nav_bar a {
     display: block;
     color: darkslategrey;
     text-align: center;
@@ -82,23 +27,14 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  .nav_bar a:hover {
     background-color: seashell;
   }
-li a.active {
+.nav_bar a.active {
     background-color: #4CAF50;
     
   }
-  .container{
-      display: grid;
-      /* grid-template-columns: 420px 420px 450px;  */
-      grid-template-rows: 300px 300px 200px;  
-       /* grid-template-rows: 200px;  */
-      margin: 2rem auto 2rem auto;
-      column-gap: 30px;
-      
-  }
-      
+  
 header{
     margin:0;
     padding: 0;
@@ -106,8 +42,14 @@ header{
     list-style-type: none;
     display: grid;
     justify-content: center;
-   
-  
+
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+
 }
 .welcome{
     display:grid;
@@ -118,59 +60,81 @@ main{
 
     display: grid;
     grid-template-columns: 500px 500px;
-  justify-content:end;
+    justify-content:end;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   
-     
 }
   .main_bio{
      display: grid;
-     justify-items: center;
-    
+     display: flex;
+     text-align: center;
+     border: 15px;
+     padding: 50px;
+    margin: auto;
+    width: 900px;
   }
   .main_picture{
-  
-    display: grid;
-    justify-content:space-evenly;
-   
-
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin: auto;
 
   }
- .projectsskills{
-     display: grid;
-     grid-template-columns: 400px 400px 400px;
-     justify-content:start;
+.container{
+   display: flex;
+   justify-content: center;
+   text-align: center;
 
- }
- .pets{
-     display: grid;
-     justify-content: center;
+}
 
- }
- .hospital{
-     display: grid;
-     justify-content: center;
-
- }
  .tasks{
-     display: grid;
+  
      text-align: center;
      justify-content: center;
  }
 
   footer{
-    display: grid;
-    justify-content: center;
-   
-}
-.contact_github{
 
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+.contact{
     justify-content: center;
+    display: grid;
+    grid-area: auto;
+    text-align: center;
+    grid-template-columns: 400px 400px 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 50px;
 
 }
-.contact_linkedin{
-    
-    display: grid;
+.containerproject{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        margin: 50px;
+     
+}
+
+.projectsskills{
+     
     justify-content: center;
+    display: grid;
+    grid-area: auto;
+    text-align: center;
+    grid-template-columns: 400px 400px 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 50px;
 
 }
+
