@@ -1,140 +1,121 @@
+
+
 *{
-    margin: 0px;
-    padding: 0px;
-    color:darkslategrey;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center; 
-}
+  margin: 0px;
+  padding: 0px;
+  color: darkslategray;
 
+}
 body{
-     background-image: url(" http://wallpaperheart.com/wp-content/uploads/2018/08/cool-background-designs-for-powerpoint-7.jpg");
+      background-image: url(" http://wallpaperheart.com/wp-content/uploads/2018/08/cool-background-designs-for-powerpoint-7.jpg");
 }
+.container{
+  display: grid;
+  margin: 2 rem auto;
+  grid-template-rows: 100px 100px 600px 100px;
+ 
 
-
-.linkedIn{
-    width: 100px;
-    text-align: center;
-}
-.github{
-    width:130px ;
-    text-align: center;
-}
-  .nav_bar a {
-    display: block;
-    color: darkslategrey;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-  }
-  
-  .nav_bar a:hover {
-    background-color: seashell;
-  }
-.nav_bar a.active {
-    background-color: #4CAF50;
-    
-  }
-  
-header{
-    margin:0;
-    padding: 0;
-    overflow:hidden; 
-    list-style-type: none;
-    display: grid;
-    justify-content: center;
-
-}
-.nav_bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-
+ 
 }
 .welcome{
-    display:grid;
-    justify-content: end;
+  display:grid;
+  justify-content: center;
+  font-size: 50px;
+  font-style: oblique;
+  color: slategrey;
 }
-    
-main{
+.nav_bar{
+  display: flex;
+  text-align: center;
+  justify-self: center;
+}
 
-    display: grid;
-    grid-template-columns: 500px 500px;
-    justify-content:end;
-    display: grid;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.nav_bar a {
+
+  display: grid;
+  color: darkslategrey;
+  padding: 5px; 
+  float: right;
+  font-size: 30px;
+}
+
+.nav_bar a:hover {
+  background-color: seashell;
+}
+.nav_bar a.active {
+  background-color: #4CAF50;
+
+}
+.main{
+
+  display: grid;
+  grid-template-columns: 650px 695px;
+  row-gap: 20px;
+}
+.header{
+ 
+  display: grid; 
+  padding: 25px;
+  margin: 10px;
+}
+
+.bio{
+  text-align: center;
+  justify-content: center;
+}
+.pic{
+  text-align: center;
+  justify-content: center;
+  padding: 25px 10x;
+  margin: 10px;
+ 
+}
+.content{
+
+  display: grid;
+  grid-template-rows: 250px 250px 100px;
   
 }
-  .main_bio{
-     display: grid;
-     display: flex;
-     text-align: center;
-     border: 15px;
-     padding: 50px;
-    margin: auto;
-    width: 900px;
-  }
-  .main_picture{
-     display: flex;
-     justify-content: center;
-     text-align: center;
-     margin: auto;
-
-  }
-.container{
-   display: flex;
-   justify-content: center;
-   text-align: center;
-
+.virtual_pet{
+  justify-content: center;
+  display: grid;
+  grid-area: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 50px;
 }
-
- .tasks{
+.hospital{
+  justify-content: center;
+  display: grid;
+  grid-area: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 50px;
   
-     text-align: center;
-     justify-content: center;
- }
-
-  footer{
-
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
 }
-.contact{
-    justify-content: center;
-    display: grid;
-    grid-area: auto;
-    text-align: center;
-    grid-template-columns: 400px 400px 400px;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    margin: 50px;
+.skills{
 
-}
-.containerproject{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: 5px;
-        margin: 50px;
-     
+  text-align: center;
+  justify-content: center;
 }
 
-.projectsskills{
-     
-    justify-content: center;
-    display: grid;
-    grid-area: auto;
-    text-align: center;
-    grid-template-columns: 400px 400px 400px;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    margin: 50px;
+.footer{
 
+  display: grid;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+}
+.linkedIn{
+  width: 80px;
+  text-align: center;
+}
+.github{
+  width:100px ;
+  text-align: center;
 }
 
